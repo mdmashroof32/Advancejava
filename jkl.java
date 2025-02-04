@@ -33,13 +33,19 @@ public class jkl {
 		set.add(36);
 		set.forEach(Nums -> System.out.print(Nums + " "));
 		
-		
+		System.out.println( );
 	}
-	
+	 public static void linkedlist() {
+    	LinkedList <Integer> list = new LinkedList<>();
+    	list.addFirst(78);
+    	list.addLast(90);
+    	list.add(1,78);
+    	list.forEach(nums-> System.out.print(nums+ " "));
+    	}
 
 	public static void main(String[] args) {
 	list();	
 	set();
-	
+	linkedlist();
 }
 }
