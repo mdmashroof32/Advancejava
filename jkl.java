@@ -21,7 +21,7 @@ public class jkl {
 		list.add(57);
 		list.forEach(Nums -> System.out.print(Nums + " "));
 		
-		System.out.println( );
+		System.out.println( ); // print the other method from next line
 	
 	}
 	
