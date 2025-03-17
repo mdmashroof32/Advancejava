@@ -3,7 +3,7 @@ package second_project;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class mkkl {
+public class JDBC {
 	public static void main(String[] args)throws ClassNotFoundException {
 		try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
